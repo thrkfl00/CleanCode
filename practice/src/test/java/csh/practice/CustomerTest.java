@@ -15,7 +15,7 @@ public class CustomerTest {
 		movie = new Movie("MovieName", Movie.CHILDRENS);
 		rental = new Rental(movie, 0);
 		customer.addRental(rental);
-			
+		
 		
 		
 		assertEquals("Rental Record for Name\n" + 
